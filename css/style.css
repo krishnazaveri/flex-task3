@@ -1,0 +1,127 @@
+*{ box-sizing: border-box;}
+
+body { margin: 0px;
+    padding: 0px;
+}
+
+a { text-decoration: none;}
+
+.header {
+    width: 100%;
+    background-color: whitesmoke;
+    border-bottom: 1px solid grey;
+    /* justify-content: space-between; */
+    display: flex;
+    padding: 10px 25px;
+    color: grey;
+}
+
+.header .header-left {
+    width: 50%;
+    flex-wrap: wrap;
+    /* padding: 10px; */
+   /*  border: 1px solid red; */
+}
+
+.header .header-left ul {
+    margin: 5px 0px 0px 0px;
+    padding: 0px;
+    list-style: none;
+    
+}
+
+.header .header-left ul .lang {
+    display: inline;
+    margin: 0px 5px;
+    position: relative;
+
+}
+
+.header .header-left .lang ul { display: none;}
+
+.header .header-left .lang:hover ul { 
+    display:block; 
+    position: absolute; 
+    top: 18px; 
+    left: 10px;
+    background-color: white;
+    padding: 15px; 
+    width: 100px;   
+}
+
+.header .header-right {
+    width: 50%;
+    /* padding: 10px; */
+    /* border: 1px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    position: relative;
+}
+
+.header .header-right .search {
+    margin: 0 10px 0 0;
+    position: absolute;
+    top: 4px;
+    right: 240px;
+    color: coral;
+}
+
+.header .header-right  button{
+    padding: 5px 10px;
+    border: 1px solid coral;
+    color: coral;
+    margin: 0px 10px; 
+}
+.header .header-right  button:hover {
+    background-color: coral;
+    color: white;
+}
+
+.main {
+
+    width: 100%;
+    padding: 10px 25px;
+    border: 1px solid;
+    display: flex;
+}
+
+.main .logo {
+    width: 30%;
+    padding: 0px 10px;
+    border: 1px solid red;
+}
+
+.main .nav {
+    width: 70%;
+    
+    border: 1px solid green;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+/* .main .nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+} */
+
+.main .nav .a{ 
+    list-style: none;
+    display: inline;
+    margin: 0px 10px;
+}
+
+.main .nav .b {
+    display: none;
+}
+
+.main .nav .a:hover .b{ 
+    display: block;
+    list-style: none;
+}
+

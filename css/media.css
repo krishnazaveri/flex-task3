@@ -1,0 +1,5 @@
+@media(max-width:753px)
+{
+    .header .header-left { width: 100%;}
+    .header .header-right { width: 100%;}
+}
